@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int i,j,row,col;
+    cout<<"enter row" <<endl;
+    cin>>row;
+    cout<<"enter column" <<endl;
+    cin>>col;
+    for(i=1; i<=row; i++)
+    {
+        for(j=1; j<=col; j++)
+        {
+            cout<< "*" ;
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+
+enter row
+4
+enter column
+6
+******
+******
+******
+******
